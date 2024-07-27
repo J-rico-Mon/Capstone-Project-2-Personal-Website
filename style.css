@@ -399,6 +399,7 @@ section{
   
   #projects {
     position: relative;
+    
   }
   
   .color-container {
@@ -408,8 +409,9 @@ section{
   
   .project-img {
     border-radius: 2rem;
-    width: 500px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
   }
   
   .project-title {
